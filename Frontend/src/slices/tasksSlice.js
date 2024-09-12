@@ -7,7 +7,7 @@ const initialState = {
     error:''
 }
 
-const BASE_URL = 'http://localhost:8080/api/tasks/'   
+const BASE_URL = 'Port + /api/tasks/'   
 
 //GET
 export const getTasksFromServer = createAsyncThunk(
